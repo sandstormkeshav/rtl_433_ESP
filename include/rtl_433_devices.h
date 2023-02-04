@@ -58,6 +58,7 @@
   DECL(gt_wt_02)                                                               \
   DECL(gt_wt_03)                                                               \
   DECL(hcs200)                                                                 \
+  DECL(honeywell)                                                              \
   DECL(honeywell_wdb)                                                          \
   DECL(ht680)                                                                  \
   DECL(infactory)                                                              \
@@ -112,7 +113,7 @@
   DECL(X10_RF)                                                                 \
   DECL(x10_sec)                                                                \
   /* Add new decoders here. */
-#define NUMOFDEVICES 102
+#define NUMOFDEVICES 103
 /* Add new decoders here. */
 #else
 /**
