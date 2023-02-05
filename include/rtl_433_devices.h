@@ -120,7 +120,7 @@
  * Subset of devices that I have access to and have tested with
  */
 #define DEVICES                                                                \
-  DECL(oregon_scientific)                                                      \
+  DECL(honeywell)                                                      \
 /* Add new personal decoders here. */
 #define NUMOFDEVICES 1
 #endif
