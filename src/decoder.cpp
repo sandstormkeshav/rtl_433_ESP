@@ -109,8 +109,8 @@ void rtlSetup() {
     memcpy(&cfg->devices[45], &gt_tmbbq05, sizeof(r_device));
     memcpy(&cfg->devices[46], &gt_wt_02, sizeof(r_device));
     memcpy(&cfg->devices[47], &gt_wt_03, sizeof(r_device));
-    memcpy(&cfg->devices[49], &hcs200, sizeof(r_device));
-    memcpy(&cfg->devices[50], &honeywell, sizeof(r_device));
+    memcpy(&cfg->devices[48], &hcs200, sizeof(r_device));
+    memcpy(&cfg->devices[49], &honeywell, sizeof(r_device));
     memcpy(&cfg->devices[50], &honeywell_wdb, sizeof(r_device));
     memcpy(&cfg->devices[51], &ht680, sizeof(r_device));
     memcpy(&cfg->devices[52], &infactory, sizeof(r_device));
