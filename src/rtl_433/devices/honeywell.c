@@ -42,7 +42,7 @@ static int honeywell_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {
     // full preamble is 0xFFFE
     uint8_t const preamble_pattern[2] = {0xff, 0xe0}; // 12 bits
-
+printf("Im here")
     data_t *data;
     int row;
     int pos;
@@ -59,7 +59,7 @@ static int honeywell_decode(r_device *decoder, bitbuffer_t *bitbuffer)
     int alarm;
     int tamper;
     int battery_low;
-
+    printf
     row = 0; // we expect a single row only. reduce collisions
     if (bitbuffer->num_rows != 1 || bitbuffer->bits_per_row[row] < 60)
         return DECODE_ABORT_LENGTH;
