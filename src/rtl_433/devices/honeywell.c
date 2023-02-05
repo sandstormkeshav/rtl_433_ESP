@@ -42,7 +42,7 @@ static int honeywell_decode(r_device *decoder, bitbuffer_t *bitbuffer)
 {
     // full preamble is 0xFFFE
     uint8_t const preamble_pattern[2] = {0xff, 0xe0}; // 12 bits
-printf("Im here")
+printf("Im here");
     data_t *data;
     int row;
     int pos;
